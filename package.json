@@ -85,7 +85,6 @@
     "serve": "gatsby serve",
     "eslint": "eslint ./src",
     "test": "cross-env NODE_ENV=test yarn run eslint",
-    "testbuild": "yarn test && yarn build",
-    "deploy": "gh-pages-clean && gatsby build --prefix-paths && gh-pages -d public -r https://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@github.com/VladMelnyk2000/scientific--onference" 
+    "testbuild": "yarn test && yarn build"
   }
 }
